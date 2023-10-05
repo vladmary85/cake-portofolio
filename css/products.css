@@ -1,0 +1,39 @@
+.menu-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 15px;
+  }
+  
+  .menu-body > * {
+    width: 100%;
+    background: #eee;
+    border-radius: 6px;
+  }
+  
+  .menu-body .heading {
+    background: #fbd4d4;
+    margin: 0;
+    padding: 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .menu-body .menu {
+    padding: 2px 16px;
+  }
+  
+  .menu-list h2 {
+    color: var(--text-dark);
+    text-transform: capitalize;
+    font-family: "dancing script", "cursive";
+    font-style: italic;
+    font-size: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-body > * {
+      width: calc(50% - 16px);
+    }
+  }
+  
