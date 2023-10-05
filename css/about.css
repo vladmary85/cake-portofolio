@@ -25,6 +25,7 @@
   @media (max-width: 768px) {
     .about-content img {
       height: 100%;
+      width:100%;
     }
     .about-content {
       display: flex;
